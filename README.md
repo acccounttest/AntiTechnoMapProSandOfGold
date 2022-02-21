@@ -7,7 +7,9 @@ Let me retrive what distinguish the both maps and what differenciate them, they 
 
 This achieve theses opportunities:
  - Stop the checks and cancelations, can prevent any change or detect if they are needed or not, example select or not ready
- - Detect the map and get alerted and unspecced automatically, same apply but not for statuses
+ - Detect the map and get alerted and unspecced automatically, same apply but not for statuses, there are:
+ + Promap: detect a map with blue in it
+ + Antimap: detect keyword techno without case but inaccurate since it relay on UI sync so the last map you joined but not always.
 
 
 So for the abstract of all of this, the program springlobby will be verified to get its checkboxes always checked in a good order:
