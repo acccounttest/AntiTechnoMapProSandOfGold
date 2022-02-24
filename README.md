@@ -14,6 +14,6 @@ This achieve theses opportunities:
 
 So for the abstract of all of this, the program springlobby will be verified to get its checkboxes always checked in a good order:
  - Be specced always.(and never start game as spec)
- - Be spec or not but be ready(and btw unspecced before) on certains maps(FTM for tekno maps or not), not on others.(and never start game as spec)
- - Be never specced and always ready and check always auto unspectate if checkbox is checked.(but not start game if user is specced)
+ - Be ready on blue and green maps, be spec on tekno maps ,be unready on all others maps only after first map change.(map lists can be changed or deactivated)
+ - Be spectator and check always auto unspectate.(but not start game if user is specced) and be ready as soon as player is unspectated.
  - Always spec and always start the game
