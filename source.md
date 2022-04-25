@@ -18,3 +18,4 @@
      i had no such option during my AHK installation(no need with the executable) because it is a little bit
      older on other platforms, but recently under windows 10 there is an option for utf8, idk what could be the
      result on this OS with or without the beta utf-8 implemented into the system.
+     [SHA256 hash of the file footprint in an antivirus checking site](https://www.virustotal.com/gui/file/4cb9e054a0aa65677ca55179fd65dc5f02c8d50f495ddbd71b8878e2163d07d7)
