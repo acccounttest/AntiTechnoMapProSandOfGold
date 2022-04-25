@@ -1,4 +1,4 @@
-# AntiTechnoMapProSandOfGold
+# AntiTechnoMapProSandOfGold(click on release to the right panel of this page)
 Try to get spectator almost as possible, detect when map is or is not and only.
 
 
