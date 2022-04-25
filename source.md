@@ -6,7 +6,7 @@
    + 
     -> If you want add/change the icon add this:
     
-    -> +  ```autohotkey
+   + - ```autohotkey
     Menu, Tray, Icon, C:/Users/sph/Documents/AHK/start/CTMend.png, 1, 1```
 
  + > You could extract it.
