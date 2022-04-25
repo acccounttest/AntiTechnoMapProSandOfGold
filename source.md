@@ -1,11 +1,10 @@
  > This is how to get the source
  > ---
    + > If you want the source code, you just have to unzip the executable, the source is in a folder in a single text file at : 
-    -> : 
-    
-    -> +  * .rsrc/RCDATA/>AUTOHOTKEY SCRIPT< *
-    
-    -> +  If you want add/change the icon add this:
+   + 
+    -> * .rsrc/RCDATA/>AUTOHOTKEY SCRIPT< *
+   + 
+    -> If you want add/change the icon add this:
     
     -> +  ```autohotkey
     Menu, Tray, Icon, C:/Users/sph/Documents/AHK/start/CTMend.png, 1, 1```
