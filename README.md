@@ -1,6 +1,27 @@
 # AntiTechnoMapProSandOfGold(click on release to the right panel of this page)
 Try to get spectator almost as possible, detect when map is or is not and only.
 
+[Note]:I discovered the script tend to stop to react even by changing the main state mode of the script with F2, if you think the script stop working itself after a long period, or by a rehost and take around a minute to act or definitively, add theses lines after retrieving the source code explained in source.md file in this repository root:
+
+
+The variable myind already exist and has been declared in top of the script with myind:=0
+Following lines are maybe includd but are commented, it must be reside at the end of the first while loop.
+
+```autohotkey
+;while
+;{
+;...
+
+myind+=1
+if(myind>=10)
+{
+Reload
+}
+
+;...
+;}
+```
+
 
 Let me retrive what distinguish the both maps and what differenciate them, they are not so far together but sands are more and more.
 
@@ -8,7 +29,7 @@ Let me retrive what distinguish the both maps and what differenciate them, they 
 This achieve theses opportunities:
  - Stop the checks and cancelations, can prevent any change or detect if they are needed or not, example select or not ready
  - Detect the map and get alerted and unspecced automatically, same apply but not for statuses, there are:
- + Promap: detect a map with blue in it
+ + Promap: detect a map with blue or green in it.
  + Antimap: detect keyword techno without case but inaccurate since it relay on UI sync so the last map you joined but not always.
 
 
