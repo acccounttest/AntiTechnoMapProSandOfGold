@@ -1,4 +1,4 @@
-# AntiTechnoMapProSandOfGold(click on release to the right panel of this page)
+# AntiTechnoMapProSandOfGold,green,bluefield etc(click on release to the right panel of this page)
 Try to get spectator almost as possible, detect when map is or is not and only.
 
 **You can be kicked even if you are not switching slowly or rapidly between spec and play status, currently searching a fix.**
