@@ -1,7 +1,9 @@
 # AntiTechnoMapProSandOfGold(click on release to the right panel of this page)
 Try to get spectator almost as possible, detect when map is or is not and only.
 
-[Note]:I discovered the script tend to stop to react even by changing the main state mode of the script with F2, if you think the script stop working itself after a long period, or by a rehost and take around a minute to act or definitively, add theses lines after retrieving the source code explained in source.md file in this repository root:
+**You can be kicked even if you are not switching slowly or rapidly between spec and play status, currently searching a fix.**
+
+[Note]^:I discovered the script tend to stop to react even by changing the main state mode of the script with F2, if you think the script stop working itself after a long period, or by a rehost and take around a minute to act or definitively, add theses lines after retrieving the source code explained in source.md file in this repository root:
 
 
 The variable myind already exist and has been declared in top of the script with myind:=0
