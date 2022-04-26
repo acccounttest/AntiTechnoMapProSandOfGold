@@ -8,7 +8,7 @@ Try to get spectator almost as possible, detect when map is or is not and only.
 
 The variable myind already exist and has been declared in top of the script with myind:=0
 Following lines are maybe includd but are commented, it must be reside at the end of the first while loop.
-
+Please remember reload is not good, it force the application to come back to front.
 ```autohotkey
 ;while
 ;{
