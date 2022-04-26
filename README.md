@@ -25,7 +25,7 @@ Reload
 ;...
 ;}
 ```
-
+In fact reload will bring constantly the window to the front, better comment out this and keep it in screen 2 or somewhere the map area is always visible.
 
 Let me retrive what distinguish the both maps and what differenciate them, they are not so far together but sands are more and more.
 
