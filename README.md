@@ -1,3 +1,4 @@
+** Temporally not recommanded due to a new version needed for thoses that want not have to keep it front of all windows,it will be ableto be stuck in top right corner with minimal area coordinates. **
 # AntiTechnoMapProSandOfGold,green,bluefield etc(click on release to the right panel of this page)
 Try to get spectator almost as possible, detect when map is or is not and only.
 
