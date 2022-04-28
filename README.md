@@ -4,7 +4,8 @@ Try to get spectator almost as possible, detect when map is or is not and only.
 
 **You can be kicked even if you are not switching slowly or rapidly between spec and play status, currently searching a fix.**
 
-> [Working.](#Working-1)
+> 
+[Working.](#Working-1)
 [working]: #working
 
 ((((
