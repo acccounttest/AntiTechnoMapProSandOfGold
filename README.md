@@ -146,7 +146,7 @@ You can configurate the script like this for make it works when in background in
 Decide to positionate your application anywhere, do not positionnate the window to the top right, into one screen with the minimap outside of the screen , it could let make you unready as the map pixel color position was not recognized properly, near the corner you need remove much more space to discover the map, hopefully the second map coordinates of the real map area can be too out of the screen but not much, it could require a recalibration later, see the screenshot topright.
 
 
-Follow this list of operations to configure it properly the first time:
+Follow this list of operations to configure it properly the first time, search for the string ";tuto" in the script to follow steps:
 - 1 Ideal pos of the window to be able to see map abstract without take much space in the corner.
 - 2 Invert the old condition to be or not in the window, that does not matter now, 3 different lines i nthe whole script.
 - 3 Your difference in pixel for x and y used by your Windows theme, the most common border value of the windows in your system.
