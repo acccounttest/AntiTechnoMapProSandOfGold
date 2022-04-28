@@ -886,57 +886,6 @@ return
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-;tuto delete all before
-;31474E
-
-
-
-;BF BOX RED 293B55
-;
-;
-;penser à recharger deux fois en reprenant la deuieme ?
-;envoyer le mouse click sur l'enregistrement de la coordonnées en mode relative a utout début du script
-;rajouter reuse le click en tout début just avant de chercher dans l'app donc en bg ou fg il faut plutot envoyer le click sans avoir forcement besoin de laprendre en main même avant d'utiliser une technique qui permait de lire le pixel en arrière, voire créer un screen, dans ce cas selon la disposition de la fenetre habituelle en plein écran ou dans le screenshoot on pourrait réutiliser helpbotboxes mais il faut le corriger en démarrant sur numpad+numero au lieu de laligne principale que pour azzerty
-
-
-;thismode:
-;check enlever f2
-;faire dans une boucle
-;ajouter killer le spring.exe 
-;ajouter un compteur en secondes dans la boucle pour attendre
-;mais retrouver le parent de la fenetre, donc multi SL compatible, checker le parent
-;ajouter dans le git
-;
-;
-
-;ajouter func pour faire reellement le set de coches du mode en cours si besoin toutes les x secondes
-;faire que si un certain mode on peut cocher une performance qui dit bcp plus souvent l'essentiel de la coche uniquement donc ajout d'un raccourci pour stopper le script mais il reprendra si ele fenetre est de nouveau changée entre une fois oui et une fois non (ou l'inverse)
-;faire ajout d la fonction si spring détecté alorts lancer le précédant équivalent raccrouci, revient quand meme si on revient dans sl puis dans le jeu une fois
-;
-;
-;rajouter la prtie scroll inverse
-;rajouter les numéros si fonctionnel et si double fonctionnement réel comme config et numpad ou non ou autre ligne 
-;rajouter la partie double emploi des coches
-;rajouter l'anti afk pour éviter le ping
-;rajouter 
-
-
-
-
-
-
 ;PixelColorSimple(pc_wID,pc_x, pc_y )
 ;{
 ;    if  pc_wID
