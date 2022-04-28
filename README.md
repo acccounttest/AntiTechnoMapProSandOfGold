@@ -5,7 +5,7 @@ Try to get spectator almost as possible, detect when map is or is not and only.
 **You can be kicked even if you are not switching slowly or rapidly between spec and play status, currently searching a fix.**
 
 > 
-[Working.](#Working-1)
+# [Working.](#Working-1)
 [working]: #working
 
 ((((
@@ -131,7 +131,9 @@ The special procedure to be able to play techno is follow theses steps:
 
 # Working 
 [[Return]][working]
+
 ---
+
 Now that i demonstrate you the potential of AHK langage through this last script, it was able to :
 - Create server latency and block starting of game, commands can fail consecutively
 - Show a nice new animations that reuse all controls and thematic of the system(see screenshots and the gif)
