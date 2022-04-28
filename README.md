@@ -9,7 +9,7 @@ Try to get spectator almost as possible, detect when map is or is not and only.
 [working]: #working
 
 ((((
-:I discovered the script tend to stop to react even by changing the main state mode of the script with F2, if you think the script stop working itself after a long period, or by a rehost and take around a minute to act or definitively, add theses lines after retrieving the source code explained in source.md file in this repository root:
+:I discovered the script tend to stop to react even by changing the main state mode of the script with <kbd>control+F2</kbd>, if you think the script stop working itself after a long period, or by a rehost and take around a minute to act or definitively, add theses lines after retrieving the source code explained in source.md file in this repository root:
 
 The variable myind already exist and has been declared in top of the script with myind:=0
 Following lines are maybe includd but are commented, it must be reside at the end of the first while loop.
@@ -108,7 +108,7 @@ ___
 + Usage and problems:
 ---
 - Double screens has not been tested fully, windows out of screen maybe not works with negative values, press F3 to force to recognize the app always in front of it is in a secondary screen always in front of all other apps even if not under focus, it will not take the window.
-- Press F2 in SpringLobby only to change the mode, saved when using the application, default is on 2, for bluefield and anti techno, note the pixel color is not saved though the restarts of the script and the script does not restart on itself.
+- Press <kbd>control+F2</kbd> in SpringLobby only to change the mode, saved when using the application, default is on 2, for bluefield and anti techno, note the pixel color is not saved though the restarts of the script and the script does not restart on itself.
 - If you get an error popup regularly, simply rename the process Spring.exe.
 - If nothing works as expected maybe it's because a encoding or scripts number associated with a wrong version of AHK (Try not L but 64 Unicode 1.1 if you used the source).
 - (Maybe the first time the script maybe need to be reloaded two times).
@@ -123,7 +123,7 @@ The special procedure to be able to play techno is follow theses steps:
 - Be specced
 - Be not in game
 - Be in Springlobby in the room
-- Press the F2 to be in mode 3, so one time, no need press the button.
+- Press the <kbd>control+F2</kbd> to be in mode 3, so one time, no need press the button.
 - Uncheck the first check, try both if not.
 - Drag and drop the window to the extreme right side if the screen to let the map area and/or the checkboxes hidden and the mouse buttons does not need to be released, the window continue to be pressed, continue to wait if necessary, the window should not long later appears in the other sens of the screen, the hidden part is inverted a little bit less, if you wait the window should continue the perpetual effect of the highlights of majority of all controls in the user intterface, note selecting and keep rolled down the combobox should refuse any checkboxes changes in every visual aspect.
 
