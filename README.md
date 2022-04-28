@@ -4,9 +4,11 @@ Try to get spectator almost as possible, detect when map is or is not and only.
 
 **You can be kicked even if you are not switching slowly or rapidly between spec and play status, currently searching a fix.**
 
+> # [# Working.](##-Working-1)
+[#-working]: ##-working
 
-[Note]^:I discovered the script tend to stop to react even by changing the main state mode of the script with F2, if you think the script stop working itself after a long period, or by a rehost and take around a minute to act or definitively, add theses lines after retrieving the source code explained in source.md file in this repository root:
-
+(
+:I discovered the script tend to stop to react even by changing the main state mode of the script with F2, if you think the script stop working itself after a long period, or by a rehost and take around a minute to act or definitively, add theses lines after retrieving the source code explained in source.md file in this repository root:
 
 The variable myind already exist and has been declared in top of the script with myind:=0
 Following lines are maybe includd but are commented, it must be reside at the end of the first while loop.
@@ -26,6 +28,7 @@ Reload
 ;}
 ```
 In fact reload will bring constantly the window to the front, better comment out this and keep it in screen 2 or somewhere the map area is always visible.
+)
 
 Let me retrieve what distinguish the both maps and what differenciate them, they are not so far together but sand maps are more and more.
 
@@ -121,6 +124,57 @@ The special procedure to be able to play techno is follow theses steps:
 - Press the F2 to be in mode 3, so one time, no need press the button.
 - Uncheck the first check, try both if not.
 - Drag and drop the window to the extreme right side if the screen to let the map area and/or the checkboxes hidden and the mouse buttons does not need to be released, the window continue to be pressed, continue to wait if necessary, the window should not long later appears in the other sens of the screen, the hidden part is inverted a little bit less, if you wait the window should continue the perpetual effect of the highlights of majority of all controls in the user intterface, note selecting and keep rolled down the combobox should refuse any checkboxes changes in every visual aspect.
+
+
+
+# # Working 
+[[Return]][#-working]
+---
+Now that i demonstrate you the potential of AHK langage through this last script, it was able to :
+- Create server latency and block starting of game, commands can fail consecutively
+- Show a nice new animations that reuse all controls and thematic of the system(see screenshots and the gif)
+- Make player lists sort differents.
+- Force to be in unfair game without being noticed before game start.
+- Get kicked some time to time while chating or switching statuses too rapidly.
+
+You can configurate the script like this for make it works when in background in top right corner of the screen.
+
+Decide to positionate your application anywhere, do not positionnate the window to the top right, into one screen with the minimap outside of the screen , it could let make you unready as the map pixel color position was not recognized properly, near the corner you need remove much more space to discover the map, hopefully the second map coordinates of the real map area can be too out of the screen but not much, it could require a recalibration later, see the screenshot topright.
+
+
+Follow this list of operations to configure it properly the first time:
+- 1 Ideal pos of the window to be able to see map abstract without take much space in the corner.
+- 2 Invert the old condition to be or not in the window, that does not matter now, 3 different lines i nthe whole script.
+- 3 Your difference in pixel for x and y used by your Windows theme, the most common border value of the windows in your system.
+- 4 Show the last pixel found in case of.
+- 5 Your preferate map pixel color, here blue,gold,green and techno maps footprint found, with an old active list unactualized for techno (exhaustive list).
+- 6 ...
+
+
+
+
+There is a latency time added in case of rehosting(happen when the room get closed and all players rejoin sometimes ready sometimes not), the process will take around 1m30 in both mode 1 and 2 to reconfigure the spectator checkbox without game start,
+feel free to decide to kill the process spring, but you have to choose which from yours lobbies.
+
+
+# Later
+----
+There will be a anti rehost, by analysing the chat every second we can get if rehost occurs then simply reload the script should make it works, maybe add a little additionnal time to avoid that.
+
+The server could kick out if you discuss too much while using the application, it happend when you change and make tests, even after, the interface may flicker some time to time.
+
+Not yet antikick, just enter two enters and if it was the last room selected in the room list, that should works for close the popup and the room.
+
+There is not yet antipopup for download(in case of rehosting) and not for anti notification.
+
+The blacklist and whitelist could be saved in another computer, it must require the window coordinate to be really effective and the resolution used, maybe too the bit screen configuration by the software and the hardware.
+
+In the future if there is a problem, simply do not calculate the pixel from the inner window, but expose the window into a corner in the same way but simply subtract 25 in x and y axis should be enough.
+
+
+
+
+
 
 
 # Next menus 
