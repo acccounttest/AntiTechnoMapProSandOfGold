@@ -69,9 +69,9 @@ ___
  : 
 + For install correctly, download the folder named files:
 ---
-- Drag and drop the executable file like on desktop in a new folder
-- The same for the txt file
-- Start it and wait the popup on
+- Drag and drop the executable file like on desktop in a new folder.
+- The same for the .ini file.
+- Start it and prepare your application the first time.
 
 + Currently supporting battle change but:
 ---
@@ -81,7 +81,7 @@ ___
 
 + Tested on SL up to **0.273**, the mode two screens permit it works always while in one screen you can appear as spec or player one second or another, the timing reside to hide the windows in the mode that check automatically the maps, uncheck spectator then release the windows the most out of the screen side right but mostly hidden, the window cannot be hidden FTM, but you can choose to really let positioned constantly the window to get the player list ready just stuck on the right side of the screen, that area all along the limit should never be occupied. Other lobbies certainly not, later.
 
-+ Support any engine or mods but not all maps(Since the according to string name of the map is not searched, the script use a pixel of the map outside boxes as much as possible FTM.)
++ Support any engine or mods but not all maps (Since the according to string name of the map is not searched, the script use a pixel of the map outside boxes as much as possible FTM).
 
 + Currently not supported:
 ---
@@ -104,17 +104,17 @@ ___
 ---
 - Double screens has not been tested fully, windows out of screen maybe not works with negative values, press F3 to force to recognize the app always in front of it is in a secondary screen always in front of all other apps even if not under focus, it will not take the window.
 - Press F2 in SpringLobby only to change the mode, saved when using the application, default is on 2, for bluefield and anti techno, note the pixel color is not saved though the restarts of the script and the script does not restart on itself.
-- If you get an error popup regularly, simply rename the process Spring.exe
-- If nothing works as expected maybe it's because a encoding or scripts number associated with a wrong version of AHK(Try not L but 64 Unicode 1.1 if you used the source).
-- (Maybe the first time the script maybe need to be reloaded two times.)
-- (Tips if nothing works, right-click the new icon and reload the script, now enter in spring lobby if not yet, if nothing after max 4 seconds, simply quit and come back in the app.)
+- If you get an error popup regularly, simply rename the process Spring.exe.
+- If nothing works as expected maybe it's because a encoding or scripts number associated with a wrong version of AHK (Try not L but 64 Unicode 1.1 if you used the source).
+- (Maybe the first time the script maybe need to be reloaded two times).
+- (Tips if nothing works, right-click the new icon and reload the script, now enter in spring lobby if not yet, if nothing after max 4 seconds, simply quit and come back in the app).
 
 There is a hidden mode that allow you to so much switch fast the status, make you invisible to the status, escape the kick, but can sometimes break the start command, it works in spectator mode too but it will stop much easier and itself alone depending the current mode.
 
 This mode is maybe available only for the users that own only a single screen installation.
 The special procedure to be able to play techno is follow theses steps:
 - Be in the mode 2
-- Wait a techno map
+- Wait a techno map.
 - Be specced
 - Be not in game
 - Be in Springlobby in the room
