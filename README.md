@@ -2,7 +2,7 @@
 # AntiTechnoMapProSandOfGold,green,bluefield etc(click on release to the right panel of this page)
 Try to get spectator almost as possible, detect when map is or is not and only.
 
-**You can be kicked even if you are not switching slowly or rapidly between spec and play status, currently searching a fix.**
+**Spamming keys in chat can affect your status like a flooder but you will not be warned or specified, or it's an admin hidden**
 
 > 
 # [Working.](#Working-1)
@@ -13,7 +13,7 @@ Try to get spectator almost as possible, detect when map is or is not and only.
 
 The variable myind already exist and has been declared in top of the script with myind:=0
 Following lines are maybe includd but are commented, it must be reside at the end of the first while loop.
-Please remember reload is not good, it force the application to come back to front.
+Please remember reload is not good, it force the application to come back to the front, at your coordinates, preferably the windows corner to the top right.
 ```autohotkey
 ;while
 ;{
@@ -28,7 +28,7 @@ Reload
 ;...
 ;}
 ```
-In fact reload will bring constantly the window to the front, better comment out this and keep it in screen 2 or somewhere the map area is always visible.
+In fact reload will bring constantly the window to the front, but it was in the demo version, this one works fully, better comment out this and keep it in screen 2 or somewhere the map area is always visible.
 
 ))))
 
