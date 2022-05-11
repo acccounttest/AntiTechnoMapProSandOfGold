@@ -32,6 +32,7 @@ In fact reload will bring constantly the window to the front, but it was in the 
 
 ))))
 
+** If you face difficulties and you get the windows regulary front of all others, try to stop the appearing by using the key that permit to send a window to the desktop, un der ll other windows, in one shortcut or by this script, SublimeTab, it permit revert all of them too**
 Let me retrieve what distinguish the both maps and what differenciate them, they are not so far together but sand maps are more and more.
 
 This achieve theses opportunities:
