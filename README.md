@@ -54,8 +54,8 @@ So for the abstract of all of this, the program springlobby will be verified to 
 --- 
 + Modes
 ___
- - 1 Always spec 
- - 2 Always rdy or not 
+ - 1 Always spec (Note by default the process is not killed)
+ - 2 Always rdy or not (note it could kill spring.exe even in this mode, it should not,i f it happened simply pause thescript during a game or change how you kill the spring process)
  - 3 Always spec until unspec 
  - 4 Always game spec 
 + The mode 2 will allow one more thing, it keeps the other maps as neutral and tends to let you unready, for blue not techno.
@@ -75,9 +75,12 @@ ___
  : 
 + For install correctly, download the folder named files:
 ---
+- Download the spring.AHK, it require AHK as usual, 64 and unicode or utf-8 is file but keeep BOM encoding if any, if you don't know open this file with sublimetext editor and choose save with reencoding from the main menu, and choose well(or maybe yoru installation proposed you already an utf-8 option checkbox).
+OR
 - Drag and drop the executable file like on desktop in a new folder.
+AND
 - The same for the .ini file.
-- Start it and prepare your application the first time.
+- Start it after the lobby and prepare your application the first time, you can reload by a right click on notification area icon, it will repositionnate the lobby client into the corner top right.
 
 + Currently supporting battle change but:
 ---
